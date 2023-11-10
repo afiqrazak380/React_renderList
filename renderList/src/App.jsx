@@ -24,4 +24,10 @@ function App() {
   )
 }
 
+List.defaultProps = {
+  category: "No Category",
+  items: []
+}
+
+
 export default App
