@@ -3,7 +3,7 @@ import List from "./List.jsx"
 
 function App() {
 
-  const fruits = [{id: 1, name: "apple", calories: 95},
+  const fruits = [{id: 1, name: "apple", calories: "apple"},
                   {id: 2, name: "orange", calories: 45},
                   {id: 3, name: "banana", calories: 105},
                   {id: 4, name: "coconut", calories: 159},
@@ -23,11 +23,5 @@ function App() {
     </>
   )
 }
-
-List.defaultProps = {
-  category: "No Category",
-  items: []
-}
-
 
 export default App
